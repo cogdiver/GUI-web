@@ -1,0 +1,31 @@
+$card-background: white;
+$column-background: #ebecf0;
+$font-color: #172b4d;
+$font-color-2: #5e6c84;
+$column-background-hover: #dadbe2;
+
+body, html {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    & a {
+        text-decoration: none;
+    }
+
+    & figure{
+        margin: 0;
+    }
+}
+
+#root {
+    background-image: url("https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2400x1600/46bd8aa47194034e600c03df2c780603/photo-1632042704576-7ae3ef405c78.jpg");
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background-position: 50%;
+    background-size: cover;
+}
